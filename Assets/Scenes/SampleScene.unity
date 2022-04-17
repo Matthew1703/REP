@@ -197,8 +197,8 @@ GameObject:
   - component: {fileID: 362526101}
   - component: {fileID: 362526104}
   - component: {fileID: 362526103}
-  - component: {fileID: 362526102}
   - component: {fileID: 362526105}
+  - component: {fileID: 362526102}
   m_Layer: 0
   m_Name: Square
   m_TagString: Respawn
@@ -280,9 +280,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 362526099}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72c3fe1cda998486d952d8726e087c4c, type: 3}
+  m_Script: {fileID: 11500000, guid: acce16bbfb5e644f4803c1e09a64c363, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 3
+  lives: 5
+  jumpForce: 15
+  rb: {fileID: 362526103}
 --- !u!50 &362526103
 Rigidbody2D:
   serializedVersion: 4
