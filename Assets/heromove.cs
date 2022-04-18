@@ -15,5 +15,14 @@ public class heromove : MonoBehaviour
     {
         moveInput = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+        Jump();
+    }
+
+    void Jump()
+    {
+        if (Input.GetKeyDown((KeyCode.Space)))
+        {
+            rb.AddForce(Vector2.up * jumpForce);
+        }
     }
 }

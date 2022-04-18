@@ -214,8 +214,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 362526099}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.3, y: -3.36, z: 0}
-  m_LocalScale: {x: 0.3299353, y: 0.36907703, z: 1}
+  m_LocalPosition: {x: -8.2187, y: -3.46, z: 0}
+  m_LocalScale: {x: 0.31485084, y: 0.36907703, z: 1}
   m_Children: []
   m_Father: {fileID: 211729488}
   m_RootOrder: 0
@@ -285,7 +285,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   lives: 5
-  jumpForce: 15
+  jumpForce: 250
   rb: {fileID: 362526103}
 --- !u!50 &362526103
 Rigidbody2D:
